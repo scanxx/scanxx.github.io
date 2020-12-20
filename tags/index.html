@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -17,14 +17,14 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"blog.scanxx.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"blog.scanxx.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="tags">
 <meta property="og:url" content="http://blog.scanxx.com/tags/index.html">
 <meta property="og:site_name" content="scanxx blog">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-12-20T01:27:12.000Z">
 <meta property="article:modified_time" content="2020-12-20T01:27:42.528Z">
 <meta property="article:author" content="scanxx">
@@ -39,7 +39,7 @@
     sidebar: "",
     isHome : false,
     isPost : false,
-    lang   : 'en'
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -84,14 +84,14 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
     </div>
   </div>
 
-  <div class="site-meta">
+  <div class="site-meta custom-logo">
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
@@ -113,22 +113,22 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/." rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+    <a href="/." rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
   </ul>
@@ -160,7 +160,7 @@
     
     
     
-    <div class="post-block" lang="en">
+    <div class="post-block" lang="zh-CN">
       <header class="post-header">
 
 <h1 class="post-title" itemprop="name headline">tags
@@ -179,7 +179,7 @@
       <div class="post-body">
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-              1 tag in total
+              目前共计 1 个标签
             </div>
             <div class="tag-cloud-tags">
               <a href="/tags/%E5%A3%B3/" style="font-size: 12px; color: #ccc">壳</a>
@@ -237,10 +237,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -251,6 +251,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="scanxx"
+      src="data:img/jpg;base64,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#/images/avatar.gif">
   <p class="site-author-name" itemprop="name">scanxx</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -260,20 +262,20 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">categories</span></a>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">tags</span></a>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -287,6 +289,16 @@
   </div>
 
 
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      FRIENDLY LINK
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://flag0.com/" title="http:&#x2F;&#x2F;flag0.com" rel="noopener" target="_blank">flag0.com</a>
+        </li>
+    </ul>
+  </div>
 
       </div>
 
